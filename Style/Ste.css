@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+
+    background: linear-gradient(-45deg, #5f2c82, #49a09d);
+    background-size: 200% 200%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.blok {
+    width: 98%;
+    height: 10vh;
+    background-color: #23193161;
+    box-shadow: 0 10px 15px rgb(0, 0, .2);
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text {
+    text-align: center;
+    color: #0000008c;
+    font-size: 25px;
+    font-family: fantasy;
+}
